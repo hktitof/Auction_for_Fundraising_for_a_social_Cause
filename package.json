@@ -2,5 +2,12 @@
   "name": "CourseraProject",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "remixd": "node node_modules/@remix-project/remixd/src/bin/remixd.js"
+  },
+  "dependencies": {
+    "@remix-project/remixd": "^0.6.5",
+    "remixd": "^0.2.4"
+  }
 }
